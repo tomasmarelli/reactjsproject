@@ -49,8 +49,31 @@ header .containerItemList ul li{
 
 
 header .containerCart{
-    border: 1px solid black;
     width: 10%;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 72px;
+}
+
+header .containerCart .containerLength{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+header .containerCart .containerLength .cantCart{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-txt-nav);
+    color: white;
+    text-align: center;
+    top: 0;
+    left: 80%;
+    border-radius: 50%;
 }
