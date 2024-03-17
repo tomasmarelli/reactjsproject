@@ -20,7 +20,7 @@ const productos = [
         stock: 7,
         type: "placa de video",
         imageProduct: {
-            firtsImage: "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3050-8gb-msi-gaming-x-0.jpg",
+            firtsImage: "https://http2.mlstatic.com/D_NQ_NP_781239-MLA48656710911_122021-O.webp",
             secondImage: "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3050-8gb-msi-gaming-x-2.jpg"
         },
         price: 99000,
